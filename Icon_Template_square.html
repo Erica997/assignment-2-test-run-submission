@@ -49,29 +49,17 @@
             var sound7 = new buzz.sound("sound/cafe.mp3");
             var sound8 = new buzz.sound("sound/fire.mp3");
             var sound9 = new buzz.sound("sound/fireworks.mp3");
-
-            function stopSounds() {
-                sound1.stop();
-                sound2.stop();
-                sound3.stop();
-                sound4.stop();
-                sound5.stop();
-                sound6.stop();
-                sound7.stop();
-                sound8.stop();
-                sound9.stop();
-            }
      
             window.onload = function() {
-                document.getElementById('img1').addEventListener('click', function () {stopSounds(); sound1.play(); document.getElementById('img1').src = 'img/check.png';});  
-                document.getElementById('img2').addEventListener('click', function () {stopSounds(); sound2.play(); document.getElementById('img2').src = 'img/check.png';});
-                document.getElementById('img3').addEventListener('click', function () {stopSounds(); sound3.play(); document.getElementById('img3').src = 'img/check.png';});
-                document.getElementById('img4').addEventListener('click', function () {stopSounds(); sound4.play(); document.getElementById('img4').src = 'img/check.png';});
-                document.getElementById('img5').addEventListener('click', function () {stopSounds(); sound5.play(); document.getElementById('img5').src = 'img/check.png';}); 
-                document.getElementById('img6').addEventListener('click', function () {stopSounds(); sound6.play(); document.getElementById('img6').src = 'img/check.png';}); 
-                document.getElementById('img7').addEventListener('click', function () {stopSounds(); sound7.play(); document.getElementById('img7').src = 'img/check.png';}); 
-                document.getElementById('img8').addEventListener('click', function () {stopSounds(); sound8.play(); document.getElementById('img8').src = 'img/check.png'; }); 
-                document.getElementById('img9').addEventListener('click', function () {stopSounds(); sound9.play(); document.getElementById('img9').src = 'img/check.png';});
+                document.getElementById('img1').addEventListener('click', function () {sound1.play(); document.getElementById('img1').src = 'img/check.png';});  
+                document.getElementById('img2').addEventListener('click', function () {sound2.play(); document.getElementById('img2').src = 'img/check.png';});
+                document.getElementById('img3').addEventListener('click', function () {sound3.play(); document.getElementById('img3').src = 'img/check.png';});
+                document.getElementById('img4').addEventListener('click', function () {sound4.play(); document.getElementById('img4').src = 'img/check.png';});
+                document.getElementById('img5').addEventListener('click', function () {sound5.play(); document.getElementById('img5').src = 'img/check.png';}); 
+                document.getElementById('img6').addEventListener('click', function () {sound6.play(); document.getElementById('img6').src = 'img/check.png';}); 
+                document.getElementById('img7').addEventListener('click', function () {sound7.play(); document.getElementById('img7').src = 'img/check.png';}); 
+                document.getElementById('img8').addEventListener('click', function () {sound8.play(); document.getElementById('img8').src = 'img/check.png'; }); 
+                document.getElementById('img9').addEventListener('click', function () {sound9.play(); document.getElementById('img9').src = 'img/check.png';});
             }  
         </script>   
         
